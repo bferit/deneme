@@ -38,6 +38,7 @@ jobs:
           echo test, and deploy your project.
   smile:
     name: smile
+    environment: production
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
